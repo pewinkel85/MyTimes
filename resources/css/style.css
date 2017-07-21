@@ -1,4 +1,6 @@
-
+div {
+  border: 1px solid black;
+}
 
 header {
   width: 100%;
@@ -21,6 +23,26 @@ nav span {
 }
 nav a {
   color: Black;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+}
+
+.column.left {
+  width: 630px;
+}
+
+.column.center {
+  width: 300px;
+}
+
+.column.right {
+  width: 240px;
 }
 
 #logo {
